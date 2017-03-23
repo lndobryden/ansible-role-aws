@@ -1,0 +1,11 @@
+---
+# Install Boto and setup Creds
+- name: Install boto3
+  pip: name=boto3 state=latest
+
+- file: path=/root/.aws state=directory mode=0755
+
+- name: Copy AWS Credentials
+  copy: src=aws.config dest=/root/.aws/config owner=root group=root mode=644
+# Decrypt before copying
+- copy: src=aws.credentials dest=/root/.aws/credentials owner=root group=root mode=644

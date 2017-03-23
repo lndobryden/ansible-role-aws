@@ -1,0 +1,7 @@
+---
+# vars file for aws
+aws_user:
+aws_user_home:
+aws_default_region:
+aws_access_key_id:
+aws_secret_access_key:

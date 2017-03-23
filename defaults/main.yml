@@ -1,0 +1,7 @@
+---
+# defaults file for aws
+aws_user: root
+aws_user_home: root
+aws_default_region: us-east-1
+aws_access_key_id:
+aws_secret_access_key:
