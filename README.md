@@ -24,7 +24,7 @@ Example Playbook
 ----------------
 
 ```
-- { role: aws,
+- { role: lndobryden.aws,
      aws_user: root,
      aws_user_home: root
      default_region: us-east-1,
